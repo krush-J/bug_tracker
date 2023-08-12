@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {getBug, removed, solved } from "../redux/Actions";
+import { getBug, removed, solved } from "../redux/Actions";
 import { useNavigate } from "react-router-dom";
 import BugHomeScreen from "../screens/BugHomeScreen";
 
@@ -103,7 +103,7 @@ const CurrentBugs = () => {
                   <span
                     class="cursor-pointer"
                     onClick={() => {
-                      dispatch(getBug({id:bug.id}))
+                      dispatch(getBug({ id: bug.id }));
                       navigate(`/bug`);
                     }}
                   >
