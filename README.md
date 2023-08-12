@@ -1,3 +1,18 @@
+## Login Page 
+
+## Action Types
+
+- `LOGIN`: Represents an action when a user logs in.
+- `LOGOUT`: Represents an action when a user logs out.
+- `BUG_ADDED`: Represents an action when a new bug is added to your application.
+- `BUG_SOLVED`: Represents an action when the status of a bug is changed, indicating that it has been solved.
+- `BUG_REMOVED`: Represents an action when a bug is removed or marked for removal.
+- `CLEAN_REMOVED_BUGS`: Represents an action to clear or reset the list of removed bugs.
+- `RESTORE_REMOVED_BUG`: Represents an action when a removed bug is restored, i.e., taken out of the removal status.
+- `DELETE_REMOVED_BUG`: Represents an action when a removed bug is permanently deleted from the application.
+- `GET_BUG`: Represents an action when a request is made to view a bug. This might be used to fetch bug details from the server.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
