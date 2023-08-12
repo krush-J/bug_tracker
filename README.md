@@ -12,22 +12,22 @@
 - `DELETE_REMOVED_BUG`: Represents an action when a removed bug is permanently deleted from the application.
 - `GET_BUG`: Represents an action when a request is made to view a bug. This might be used to fetch bug details from the server.
 
-#Login Page
+## Login Page
 ![login page](image.png)
 
-#Home Page
+## Home Page
 ![Home page](image-1.png)
 
-#Create New Bug
+## Create New Bug
 ![window of new bug creation](image-2.png)
 
-#Current Active Bugs
+## Current Active Bugs
 ![window of current active bugs](image-3.png)
 
-#Bug Details
+## Bug Details
 ![window of current bug details](image-4.png)
 
-#Window of trashed bugs
+## Window of trashed bugs
 ![window of trash bugs](image-5.png)
 
 # Getting Started with Create React App
