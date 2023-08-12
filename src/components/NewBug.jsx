@@ -20,6 +20,7 @@ const NewBug = () => {
     dispatch(added({founder:user, name:nameRef.current.value, description:desRef.current.value}));
     desRef.current.value = "";
     nameRef.current.value = "";
+    alert('bug added to list of active bugs..')
   };
   return (
     <div class='min-h-screen flex w-full items-center justify-center'>
