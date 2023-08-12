@@ -1,4 +1,7 @@
-## Login Page 
+### combination of react and redux and styling made using tailwind
+- State management using Redux with a set of specific action types.
+- Styling using Tailwind CSS for efficient and flexible styling.
+- Routing and navigation using React Router to handle different views based on URLs.
 
 ## Action Types
 
