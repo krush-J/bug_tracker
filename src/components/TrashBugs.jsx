@@ -78,7 +78,11 @@ const TrashBugs = () => {
               <span
                   class="cursor-pointer"
                   onClick={() => {
-                    dispatch(deleteBug({id:bug.id}));
+                    const userResponse = window.confirm(
+                      "Do you want to delete bug?"
+                    );
+                    if (userResponse)
+                      dispatch(deleteBug({id:bug.id}));
                   }}
                 >
                   <DeleteBug />
